@@ -18,3 +18,15 @@ output: 2
 input: 30
 output: 832040
 '''
+
+
+def fib(num):
+    # base case
+    if num == 1 or num == 2:
+        return 1
+    # logic 
+    
+    # return recursive function
+    return fib(num - 1) + fib(num - 2)
+
+print(fib(18))
